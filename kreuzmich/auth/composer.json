@@ -1,0 +1,24 @@
+{
+	"name": "kreuzmich/auth",
+	"type": "phpbb-extension",
+	"description": "Auth Provider for kreuzmich.de",
+	"homepage": "https://www.kreuzmich.de/",
+	"version": "0.0.7",
+	"license": "BSD",
+	"authors": [
+		{
+			"name": "Christian Rubbert",
+			"homepage": "https://www.kreuzmich.de/",
+			"role": "Team Kreuzmich"
+		}
+	],
+	"require": {
+		"php": ">=5.3.3"
+	},
+	"extra": {
+		"display-name": "Auth Kreuzmich",
+		"soft-require": {
+			"phpbb/phpbb": "3.1.*"
+		}
+	}
+}

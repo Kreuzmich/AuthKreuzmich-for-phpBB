@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('Kreuzmich.eot');
+  src: url('Kreuzmich.woff2') format('woff2'),
+       url('Kreuzmich.woff') format('woff'),
+       url('Kreuzmich.ttf') format('truetype'),
+       url('Kreuzmich.svg#Kreuzmich') format('svg'),
+       url('Kreuzmich.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+.fa{
+	 display:inline-block;
+	 font:normal normal normal 14px/1 FontAwesome;
+	 font-size:inherit;text-rendering:auto;
+	 -webkit-font-smoothing:antialiased;
+	 -moz-osx-font-smoothing:grayscale
+	 }
+.fa-kreuzmich:before {content:"\efff"}   /* phpBB */ 

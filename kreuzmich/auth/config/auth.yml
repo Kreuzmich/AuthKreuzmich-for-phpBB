@@ -1,0 +1,10 @@
+services:
+    auth.provider.kreuzmich:
+        class: kreuzmich\auth\auth\provider\kreuzmich
+        arguments:
+            - @dbal.conn
+            - @config
+            - @request
+            - @language
+        tags:
+            - { name: auth.provider }

@@ -1,0 +1,30 @@
+<fieldset id="auth_kreuzmich_settings">
+	<legend>{L_KREUZMICH}</legend>
+	<dl>
+		<dt><label for="kreuzmich_user_attribute">{L_KREUZMICH_USER}{L_COLON}</label><br /><span>{L_KREUZMICH_USER_EXPLAIN}</span></dt>
+		<dd><input type="text" id="kreuzmich_user_attribute" size="40" name="config[kreuzmich_user_attribute]" value="{AUTH_KREUZMICH_USER}" /></dd>
+	</dl>
+	<dl>
+		<dt><label for="kreuzmich_password_attribute">{L_KREUZMICH_PASSWORD}{L_COLON}</label><br /><span>{L_KREUZMICH_PASSWORD_EXPLAIN}</span></dt>
+		<dd><input type="text" id="kreuzmich_password_attribute" size="40" name="config[kreuzmich_password_attribute]" value="{AUTH_KREUZMICH_PASSWORD}" /></dd>
+	</dl>
+	<dl>
+		<dt><label for="kreuzmich_url_attribute">{L_KREUZMICH_URL}{L_COLON}</label><br /><span>{L_KREUZMICH_URL_EXPLAIN}</span></dt>
+		<dd><input type="text" id="kreuzmich_url_attribute" size="40" name="config[kreuzmich_url_attribute]" value="{AUTH_KREUZMICH_URL}" /></dd>
+	
+	</dl>
+	<dl>
+		<dt><label for="kreuzmich_exp_user_attribute">{L_KREUZMICH_EXP_USER}{L_COLON}</label><br /><span>{L_KREUZMICH_EXP_USER_EXPLAIN}</span></dt>
+		<dd>
+				<label><input type="radio" class="radio" name="config[kreuzmich_exp_user_attribute]" value="1"<!-- IF AUTH_KREUZMICH_EXP_USER --> id="kreuzmich_exp_user_attribute" checked="checked"<!-- ENDIF --> /> {L_YES}</label>
+				<label><input type="radio" class="radio" name="config[kreuzmich_exp_user_attribute]" value="0"<!-- IF not AUTH_KREUZMICH_EXP_USER --> id="kreuzmich_exp_user_attribute" checked="checked"<!-- ENDIF --> /> {L_NO}</label>
+		</dd>
+	</dl>
+	<dl>
+		<dt><label for="kreuzmich_new_user_attribute">{L_KREUZMICH_NEW_USER}{L_COLON}</label><br /><span>{L_KREUZMICH_NEW_USER_EXPLAIN}</span></dt>
+		<dd>
+				<label><input type="radio" class="radio" name="config[kreuzmich_new_user_attribute]" value="1"<!-- IF AUTH_KREUZMICH_NEW_USER --> id="kreuzmich_new_user_attribute" checked="checked"<!-- ENDIF --> /> {L_YES}</label>
+				<label><input type="radio" class="radio" name="config[kreuzmich_new_user_attribute]" value="0"<!-- IF not AUTH_KREUZMICH_NEW_USER --> id="kreuzmich_new_user_attribute" checked="checked"<!-- ENDIF --> /> {L_NO}</label>
+		</dd>
+	</dl>
+</fieldset>
